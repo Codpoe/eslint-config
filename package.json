@@ -1,0 +1,33 @@
+{
+  "name": "@codpoe/eslint-config",
+  "version": "0.1.0",
+  "description": "My eslint config",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codpoe/eslint-config.git"
+  },
+  "author": "Codpoe <codpoe.me@gmail.com> (https://github.com/codpoe)",
+  "files": ["index.js"],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js,.json ."
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsonc": "^2.2.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-yml": "^0.14.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "yaml-eslint-parser": "^0.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  }
+}
