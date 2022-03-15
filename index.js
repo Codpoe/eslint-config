@@ -102,7 +102,7 @@ module.exports = {
     'import/no-mutable-exports': 'error',
 
     // react
-    'react/prop-types': ['error', { skipUndeclared: true }],
+    'react/prop-types': 'off',
 
     // typescript
     '@typescript-eslint/no-explicit-any': 'off',
