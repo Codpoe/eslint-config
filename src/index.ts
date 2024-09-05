@@ -37,7 +37,11 @@ export const codpoeConfig = (
     {
       name: 'codpoe/react',
       files: ['**/*.{js,mjs,cjs,jsx,ts,tsx}'],
-      ...reactPlugin.configs.flat.recommended,
+      ...reactPlugin.configs.flat['jsx-runtime'],
+      rules: {
+        ...reactPlugin.configs.flat.recommended.rules,
+        ...reactPlugin.configs.flat['jsx-runtime'].rules,
+      },
     },
     {
       name: 'codpoe/react-hooks',
