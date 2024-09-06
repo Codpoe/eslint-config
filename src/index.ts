@@ -152,6 +152,7 @@ export const codpoeConfig = (
         'import-x/no-mutable-exports': 'error',
         'import-x/newline-after-import': 'error',
         'import-x/no-unresolved': 'off',
+        'import-x/named': 'off',
 
         // react
         'react/prop-types': 'off',
