@@ -64,6 +64,7 @@ export const codpoeConfig = (
             pathPattern: '^$',
             order: [
               'name',
+              'private',
               'version',
               'description',
               'keywords',
